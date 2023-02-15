@@ -1,0 +1,341 @@
+        
+/* For responsive please consider below template for Tablet */
+
+        .col-tb-1 {width: 8.33%;}
+        .col-tb-2 {width: 16.66%;}
+        .col-tb-3 {width: 25%;}
+        .col-tb-4 {width: 33.33%;}
+        .col-tb-5 {width: 41.66%;}
+        .col-tb-6 {width: 50%;}
+        .col-tb-7 {width: 58.33%;}
+        .col-tb-8 {width: 66.66%;}
+        .col-tb-9 {width: 75%;}
+        .col-tb-10 {width: 83.33%;}
+        .col-tb-11 {width: 91.66%;}
+        .col-tb-12 {width: 100%;}
+
+
+/* For responsive please consider above template for Tablet */
+
+/* body{
+        background-color: rgb(170, 117, 117);
+} */
+
+/* Header Starts */
+.header-container{
+         
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+       
+     
+    }
+
+
+.row-navbar{
+       width: 40%;
+       height: 100vh;
+       background-color: rgba(0, 0, 0, 0.8);
+       
+       position: absolute;
+       text-align: left;
+        
+      
+    }
+
+    .logo img{
+        margin-left: 110px;
+    }
+ 
+.row-navbar ul li{
+        background-color: transparent;
+        
+}
+
+.row-navbar ul li a{
+        margin-left: 3%;
+        color: #fff;
+}
+
+
+
+
+.dropdown-container button{
+        background-color: transparent;
+        color: #fff;
+        text-align: left;
+        margin-left: 2%;
+        
+        
+}
+
+.dropdown-container button i{
+        margin-left: 70%;
+}
+
+.dropdown-container .first-arrow{
+        margin-left: 72.5%;
+}
+
+
+.dropdown-contants{
+        width: 70%;
+        margin-left: 15%;
+        background-color: transparent;
+       
+    }
+  
+
+
+      /* Header Ends */
+
+
+      /* Bannar section Starts */
+
+
+   /* section .bannar-container{
+        
+    } */
+
+    .bannar-left{
+        margin-top: 32%;
+        padding: 5px 0px 5px 50px;
+    }
+    
+    .bannar-right{
+        margin-top: 20%;
+        text-align: left;
+     }
+     
+     .bannar-right img{
+         width: 87%;
+         margin-left: 5px;
+         
+     }
+    
+   
+  
+/* Bannar Section Ends */
+
+
+        /* About Me Section Starts */
+
+
+
+.left-about-me{
+        text-align: right;
+}
+
+.left-about-me img{
+    margin-top: 35%;
+    margin-right: 5%;
+    width: 70%;
+}
+
+
+.right-about-me{
+        margin-top: 12%;
+        padding: 25px 150px 5px 5px;
+    }
+
+
+
+    /* About Me Section Ends */
+
+
+
+    /* My Services Section Starts */
+
+   
+
+    .row{
+         margin-bottom: 12%;
+       
+    }
+
+    .row p{
+        padding: 1% 10%;
+       
+    }
+
+
+
+    /* My counter Section Starts */
+
+ 
+    
+    .item-counter{
+      
+        padding: 10% 5%;
+        text-align: center;
+    }
+    
+    .again-counter-1{
+        margin-top: 0%;
+    }
+    
+    .again-counter-4{
+        margin-bottom: 0%;
+    }
+
+   
+
+     /* My counter Section Ends */
+
+
+
+      /* My Projects Section Starts */
+
+
+      .my-projects{
+        flex-direction: row;
+    
+    }
+  
+
+    .project-container-head{
+        margin: 13% 0;
+       
+    }
+    
+
+    .project-row .row{
+        width: 90%;
+        
+    }
+
+
+/* Feedback Section starts */
+
+
+
+.feedback-head{
+
+    padding:10% 5% ;
+    
+}
+    .feedback-cards{
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .row-card{
+        width: 80%;
+        height: 250px;
+       
+        
+       
+    }
+
+    .feedback-control-button {
+        margin-bottom: 0%;
+     
+     }
+     
+    .feedback-control-button i{
+        margin: 1%;
+        transform: rotate(0);
+        
+    }
+    
+    /* Feedback Section Ends */
+
+
+
+    /* Plan Section starts */
+
+
+    .plan-container{
+       width: 85%;
+       margin: 0 auto;
+    }
+
+    .plan-head{
+        margin: 15% 0;
+        
+    }
+
+    .plan-card .row-plan{
+        width: 95%;
+        margin: 0 auto;
+    
+    }
+
+
+    /* Plan Section Ends */
+
+
+
+        /* Blog Section starts */
+
+
+    .blog-cards{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .blog-head{
+         padding: 10% 25%;
+        
+    }
+
+    .row-blog{
+        width: 95%;
+       
+      }
+
+   
+
+
+    .image-bottom{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: baseline;
+        align-items: flex-start;
+      
+    
+    }
+
+ 
+
+    .right-bottom{
+        margin-top: 10%;
+   
+    }
+
+    .right-bottom > span:first-child{
+        margin: 0px;
+    }
+    
+
+
+    /* Brand Section starts */
+
+    .brand-container{
+        margin-top: 12%;
+        padding: 1% 10%;
+       
+    }
+
+       /* Brand Section Ends */
+
+
+
+       /* Footer Starts */
+
+       .footer-container{
+       
+        padding: 15% 5%;
+        
+      }
+    
+
+      .row-newsletter input[type=email]{
+        padding: 10px 3px;
+
+
+      }
+    
+
+ 
